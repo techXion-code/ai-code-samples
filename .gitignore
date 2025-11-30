@@ -6,7 +6,8 @@ dist/
 wheels/
 *.egg-info
 *.env
-
+chroma_store/
+uv.lock
 
 # Virtual environments
 .venv
