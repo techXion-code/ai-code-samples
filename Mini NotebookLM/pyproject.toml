@@ -8,6 +8,7 @@ dependencies = [
     "chromadb>=1.3.5",
     "gradio>=6.0.1",
     "pdfplumber>=0.11.8",
+    "rembg>=2.0.68",
     "sentence-transformers>=5.1.2",
     "transformers>=4.57.3",
 ]

@@ -67,8 +67,8 @@ def ask_question(question):
 # -----------------------------
 # 3. Build app UI - Gradio
 # -----------------------------
-with gr.Blocks(title="Simple RAG App") as demo:
-    gr.Markdown("# 📄 Simple RAG App (ChromaDB + FLAN-T5)")
+with gr.Blocks(title="Mini NotebookLM App") as demo:
+    gr.Markdown("# 📄 Mini NotebookLM (ChromaDB + FLAN-T5)")
 
     with gr.Row():
         with gr.Column():

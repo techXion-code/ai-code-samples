@@ -1,0 +1,10 @@
+{
+	"servers": {
+		"fw": {
+			"type": "stdio",
+			"command": "uv",
+			"args": ["run","C:/Projects/TechXion/src/mcp-python/server.py"],
+		}
+	},
+	"inputs": []
+}
