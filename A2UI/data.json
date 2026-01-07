@@ -1,0 +1,28 @@
+{
+  "id": "booking-form",
+  "components": [
+    {
+      "component": {
+        "Form": {
+          "fields": [
+            {
+              "label": "Select Date",
+              "type": "DatePicker",
+              "path": "/booking/date"
+            },
+            {
+              "label": "Number of People",
+              "type": "Dropdown",
+              "options": [1, 2, 3, 4],
+              "path": "/booking/people"
+            }
+          ],
+          "submit": {
+            "label": "Book Now",
+            "action": "submitBooking"
+          }
+        }
+      }
+    }
+  ]
+}
