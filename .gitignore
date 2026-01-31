@@ -8,6 +8,7 @@ wheels/
 *.env
 chroma_store/
 uv.lock
+token.json
 
 # Virtual environments
 .venv
