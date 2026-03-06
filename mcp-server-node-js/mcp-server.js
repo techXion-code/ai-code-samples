@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { fetchWeather } from "./api-caller.js";
 
 // Create an MCP server
-const server = new McpServer({
+const serverVarNameChangedAtAllPlaces = new McpServer({
     name: 'fetch-weather',
     version: '1.0.0'
 });
@@ -32,6 +32,6 @@ async function callback({ city }) {
   }
 }
 
-server.registerTool("fetchWeather_tool", config, callback);
+serverVarNameChangedAtAllPlaces.registerTool("fetchWeather_tool", config, callback);
 
-export {server};
+export {serverVarNameChangedAtAllPlaces};

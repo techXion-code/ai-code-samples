@@ -13,3 +13,5 @@ token.json
 # Virtual environments
 .venv
 voice-agent/vosk-model-small-en-us-0.15/
+/node_modules/
+node_modules/

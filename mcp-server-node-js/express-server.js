@@ -3,9 +3,9 @@ import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/
 import express from 'express';
 import { server } from './mcp-server.js';
 
-// Set up Express and HTTP transport
+// Set up Express and HTTP transport 
 const app = express();
-app.use(express.json());
+app.use(express.json())
 
 app.post('/mcp', async (req, res) => {
     // Create a new transport for each request to prevent request ID collisions
@@ -20,6 +20,7 @@ app.post('/mcp', async (req, res) => {
     await transport.handleRequest(req, res, req.body); 
 });
 
+//TODO: Change the PORT
 const port = parseInt(process.env.PORT || '8080');
 
 app.listen(port, () => {
